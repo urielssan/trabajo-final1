@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Poppyns;
+  padding: 90px 20px 0;
+  background-color:#D2B48C;
+}
+.fotocv {box-sizing: border-box;
+width: 10%;
+border: solid currentColor 10px;
+padding: 1px;
+min-height:15%;
+  	min-width: 15%;
+  	}
+
+.desaparece {
+ 		display: none;
+ 	}
+.header {
+  background-color: #CD853F;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: left;
+
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color:black;
+  text-decoration: none;
+  font-family:Aboreto;
+   font-size: 16px;
+   font-weight: bolder;
+   }
+
+@font-face{
+	font-family:Aboreto;
+  src: url(Aboreto-Regular.ttf);
+  }
+  @font-face{
+	font-family:Poppyns;
+  src: url(Poppins-Regular.ttf);
+  }
+
+
+
+.logo {
+  font-size: 40px;
+  font-weight: bold; 
+  font-style: italic;
+  padding:20px 20px;
+    color:black;
+  font-family:Aboreto;
+  flex-direction: row;
+float: left;
+
+  }
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+ }
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 12px 18px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background-color:#F5DEB3;
+  transition: 0.5s;
+}
+
+/* TOGGLE */
+.nav-toggle {
+  color: floralwhite;
+  background: #D2B48C;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+  display: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+
+  }
+  .desaparece {
+ 		display: inline-block;
+ 	}
+   .fotocv {
+  	min-height:30%;
+  	min-width: 30%;
+  	
+  }
+  
+
+  
+
+  .header {
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+  }
+
+   .nav-menu-item {
+    line-height: 60px;
+    flex-direction: column-reverse;
+    display: none;
+  }
+
+ 
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: #D2B48C;
+    color: #D2B48C;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+button { background-color:#DEB887;
+color: floralwhite;
+}
+
+
+}
+
+ 	.exp {
+ 		font-family: Poppyns;
+ 		    top: 60px;
+    	width: 100%;
+   		 padding: 20px 0;
+ 	}
+.cont {
+	font-family: Poppyns;
+}
+.apt {
+	font-family: Poppyns;
+}
+.forma {
+	font-family: Poppyns;
+}
+
+h2 {
+	font-family: Poppyns;
+	float: right;
+
+}
